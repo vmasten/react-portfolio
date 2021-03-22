@@ -37,7 +37,7 @@ import Hero from "./IndexSections/Hero.js";
 // import Pills from "./IndexSections/Pills.js";
 // import Labels from "./IndexSections/Labels.js";
 // import Alerts from "./IndexSections/Alerts.js";
-// import Typography from "./IndexSections/Typography.js";
+import Typography from "./IndexSections/Typography.js";
 // import Modals from "./IndexSections/Modals.js";
 // import Datepicker from "./IndexSections/Datepicker.js";
 // import TooltipPopover from "./IndexSections/TooltipPopover.js";
@@ -60,6 +60,7 @@ class Index extends React.Component {
         <DemoNavbar />
         <main ref="main">
           <Hero />
+          <Typography />
         </main>
         <SimpleFooter />
       </>
