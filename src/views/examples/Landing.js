@@ -137,7 +137,7 @@ class Landing extends React.Component {
             {/* 1st Hero Variation */}
           </div>
           <section className="section section-lg pt-lg-0 mt--200">
-            <Container>
+            {/* <Container>
               <Row className="justify-content-center">
                 <Col lg="12">
                   <Row className="row-grid">
@@ -252,7 +252,7 @@ class Landing extends React.Component {
                   </Row>
                 </Col>
               </Row>
-            </Container>
+            </Container> */}
           </section>
           <section className="section section-lg">
             <Container>
