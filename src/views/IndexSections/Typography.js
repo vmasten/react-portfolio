@@ -28,21 +28,24 @@ class Typography extends React.Component {
   render() {
     return (
       <>
-        <h2 className="mt-lg mb-5">
+        {/* <h2 className="mt-lg mb-5">
           <span>Typography</span>
         </h2>
-        <h3 className="h4 text-success font-weight-bold">Headings</h3>
+        <h3 className="h4 text-success font-weight-bold">Headings</h3> */}
         <Row className="py-3 align-items-center">
           <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
+            {/* <small className="text-uppercase text-muted font-weight-bold">
               Heading 1
-            </small>
+            </small> */}
           </Col>
           <Col sm="9">
-            <h1 className="mb-0">Argon Design System</h1>
+            <h3 className="mb-0">It may seem a little odd to lead my portfolio with a picture of my dog, but 
+            I think she represents the best of me: my kindness, my sense of responsibility, and the stoicism
+            and empathy that make her gravitate toward spots where I've just been sitting such as in the picture
+            above. </h3>
           </Col>
         </Row>
-        <Row className="py-3 align-items-center">
+        {/* <Row className="py-3 align-items-center">
           <Col sm="3">
             <small className="text-uppercase text-muted font-weight-bold">
               Heading 2
@@ -93,7 +96,7 @@ class Typography extends React.Component {
           </Col>
         </Row>
         {/* Display titles */}
-        <h3 className="h4 text-success font-weight-bold mt-md">
+        {/* <h3 className="h4 text-success font-weight-bold mt-md">
           Display titles
         </h3>
         <Row className="py-3 align-items-center">
@@ -185,7 +188,7 @@ class Typography extends React.Component {
             <small className="text-uppercase text-muted font-weight-bold">
               Paragraph
             </small>
-          </Col>
+          </Col> */}
           <Col sm="9">
             <p>
               I will be the leader of a company that ends up being worth
